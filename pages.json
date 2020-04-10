@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "卡密验证"
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "卡密验证"
+			}
+		},
+		{
+			"path": "pages/gift/gift",
+			"style": {
+				"navigationBarTitleText": "选择礼包"
+			}
+		},
+		{
+			"path": "pages/receive/receive",
+			"style": {
+				"navigationBarTitleText": "领取礼包"
+			}
+		},
+		{
+			"path": "pages/logistics/logistics",
+			"style": {
+				"navigationBarTitleText": "溪楠"
+			}
+		}
+	    ,{
+            "path" : "pages/success/success",
+            "style" : {
+				"navigationBarTitleText": "兑换成功"
+			}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#EBEBEB",
+		"backgroundColor": "#EBEBEB"
+	}
+}
